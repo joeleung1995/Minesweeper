@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="map">
+			<ul></ul>
+		</div><div class="shade">
+			<ul></ul>
+		</div><div class="panel">
+			<div class="btn-start">
+				<div class="btn">Start</div>
+			</div>
+			<div class="info">
+				<div class="num">
+					剩余地雷：<span></span>	
+				</div><div class="time">
+					剩余时间：<span></span>
+				</div>
+			</div>
+			<div class="help">
+				<h3>游戏帮助</h3>
+				<p>1. 通过点击即可挖开方块，如果挖开的是地雷，则你输掉游戏</p>
+				<p>2. 如果方块上出现数字，则表示在其周围的八个方块中有多少颗地雷</p>
+				<p>3. 要标记你认为有可能埋有地雷的方块，请按shift键 + 单击</p>
+				<p>4. 如果某个数字方块周围的地雷全部标记完，可以指向该方块并双击鼠标左键，将其周围剩下的方块挖开</p>
+				<p>5. 在规定时间内标记出所有的地雷，则你胜利</p>
+			</div>
+		</div>
+	</div>
+	<div class="confirm"></div>
+
+	<script type="text/javascript" src="./demo.js"></script>
+
+</body>
+</html>
